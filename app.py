@@ -1,6 +1,7 @@
 import twitter
 from _constants import *
 import time
+import datetime
 
 
 # authentication
@@ -13,13 +14,16 @@ def auth():
 
 # get tweet IDs
 def getTweetId(username):
+    api = auth()
     try:
-        api = auth()
         tweets = api.GetUserTimeline(screen_name=username, count=200)
         result = list()
-        for i in tweets:
-            result.append(i['id'])
-        return result
+        ids = list()
+        for i in range(len(tweets)):
+            result.append(tweets[i])
+        for id in range(len(result)):
+            ids.append(result[id].id)
+        return ids
     except Exception as e:
         print('Oops something error: ', e)
         print('Please wait..')
@@ -55,6 +59,32 @@ def deleteAllTweets():
                 time.sleep(60)
                 pass
 
+def run():
+    day = datetime.datetime.today().weekday()
+    hour = datetime.datetime.today().time().hour
+    minute = datetime.datetime.today().time().minute
+
+    def switch(hari=str()):
+        hari = hari.lower()
+        switcher = {
+            'senin': 0,
+            'selasa': 1,
+            'rabu': 2,
+            'kamis': 3,
+            'jumat': 4,
+            'sabtu': 5,
+            'minggu': 6
+        }
+        return switcher.get(hari, 6)
+
+    while True:
+        if day == switch(hari) and str(hour) == str(jam) and str(minute) == str(menit):
+            deleteAllTweets()
+        else:
+            print('waiting..')
+            time.sleep(5)
+
 
 if __name__ == '__main__':
     deleteAllTweets()
+

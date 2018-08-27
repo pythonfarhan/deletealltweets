@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52d79778-9ddd-4ce1-a394-12fe06519b85" name="Default Changelist" comment="" />
+    <list default="true" id="52d79778-9ddd-4ce1-a394-12fe06519b85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,49 +31,54 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1100" />
+          <entry key="py" value="1785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1100" />
+          <entry key="Python" value="1785" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="281">
+              <caret line="87" selection-start-line="87" selection-end-line="88" selection-end-column="21" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1535384264755" expanded="true" signature="360:704" ph="..." />
-                <marker date="1535384264755" expanded="true" signature="762:767" ph="..." />
-                <marker date="1535384264755" expanded="true" signature="763:767" ph="..." />
+                <marker date="1535386329024" expanded="true" signature="393:824" ph="..." />
+                <marker date="1535386329024" expanded="true" signature="898:903" ph="..." />
+                <marker date="1535386329024" expanded="true" signature="899:903" ph="..." />
+                <marker date="1535386329024" expanded="true" signature="2170:2378" ph="..." />
+                <marker date="1535386329024" expanded="true" signature="2426:2428" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_constants.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/_constants.py" />
       </list>
     </option>
   </component>
@@ -80,6 +88,7 @@
     <option name="width" value="1161" />
     <option name="height" value="636" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -162,13 +171,13 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3284553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -182,23 +191,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_constants.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="281">
+          <caret line="87" selection-start-line="87" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1535386329024" expanded="true" signature="393:824" ph="..." />
+            <marker date="1535386329024" expanded="true" signature="898:903" ph="..." />
+            <marker date="1535386329024" expanded="true" signature="899:903" ph="..." />
+            <marker date="1535386329024" expanded="true" signature="2170:2378" ph="..." />
+            <marker date="1535386329024" expanded="true" signature="2426:2428" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/_constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1535384264755" expanded="true" signature="360:704" ph="..." />
-            <marker date="1535384264755" expanded="true" signature="762:767" ph="..." />
-            <marker date="1535384264755" expanded="true" signature="763:767" ph="..." />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
