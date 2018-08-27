@@ -7,6 +7,6 @@ access_token = '1015631337431040000-JY1eWtwNRnLnUtn0CKt5UVUrk0vzKZ'
 access_token_secret = '6KElNkIZsS7memqhoQol0dXS32MyAJeiwOaCgyexIdtmI'
 
 hari = 'senin'
-jam = '23'
-menit = '20'
+jam = '16'
+menit = '30'
 
