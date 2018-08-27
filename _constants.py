@@ -8,5 +8,5 @@ access_token_secret = '6KElNkIZsS7memqhoQol0dXS32MyAJeiwOaCgyexIdtmI'
 
 hari = 'senin'
 jam = '16'
-menit = '30'
+menit = '50'
 

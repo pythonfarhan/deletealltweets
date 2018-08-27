@@ -61,11 +61,7 @@ def deleteAllTweets():
 
 def run():
 
-    print('scripts is running..')
-
-    day = datetime.datetime.today().weekday()
-    hour = datetime.datetime.today().time().hour
-    minute = datetime.datetime.today().time().minute
+    print('script is running..')
 
     def switch(hari=str()):
         hari = hari.lower()
@@ -93,11 +89,16 @@ def run():
         return switcher.get(hari)
 
     while True:
+
+        day = datetime.datetime.today().weekday()
+        hour = datetime.datetime.today().time().hour
+        minute = datetime.datetime.today().time().minute
+
         if day == switch(hari) and str(hour) == str(jam) and str(minute) == str(menit):
             deleteAllTweets()
         else:
-            print('waiting..')
-            print('this is %s %s:%s' % (switch2(day), hour, minute))
+            print('waiting %s %s:%s' % (switch2(switch(hari)), jam, menit))
+            print('today is %s %s:%s' % (switch2(day), hour, minute))
             time.sleep(5)
 
 
