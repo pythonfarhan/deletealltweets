@@ -80,11 +80,24 @@ def run():
         }
         return switcher.get(hari, 6)
 
+    def switch2(hari):
+        switcher = {
+            0 : 'senin',
+            1 : 'selasa',
+            2 : 'rabu',
+            3 : 'kamis',
+            4 : 'jumat',
+            5 : 'sabtu',
+            6 : 'minggu'
+        }
+        return switcher.get(hari)
+
     while True:
         if day == switch(hari) and str(hour) == str(jam) and str(minute) == str(menit):
             deleteAllTweets()
         else:
             print('waiting..')
+            print('this is %s %s:%s' % (switch2(day), hour, minute))
             time.sleep(5)
 
 
