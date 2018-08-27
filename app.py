@@ -60,6 +60,9 @@ def deleteAllTweets():
                 pass
 
 def run():
+
+    print('scripts is running..')
+
     day = datetime.datetime.today().weekday()
     hour = datetime.datetime.today().time().hour
     minute = datetime.datetime.today().time().minute
@@ -86,5 +89,5 @@ def run():
 
 
 if __name__ == '__main__':
-    deleteAllTweets()
+    run()
 
