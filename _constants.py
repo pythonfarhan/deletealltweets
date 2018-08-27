@@ -1,12 +1,15 @@
 
-username = 'pyfrhn'
+# masukan username akun anda pada variabel di bawah ini
+username = ''
 
-consumer_key = '4UI47KPwD8uOuatYOtyvTGB98'
-consumer_secret = 'SwxEOVr35jEuRO0j5QJeFDArnH8UMmXUibC7s1KkSjBPLRiH4F'
-access_token = '1015631337431040000-JY1eWtwNRnLnUtn0CKt5UVUrk0vzKZ'
-access_token_secret = '6KElNkIZsS7memqhoQol0dXS32MyAJeiwOaCgyexIdtmI'
+# masukan consumer key dan token key akun twitter anda pada variabel di bawah ini
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
-hari = 'senin'
-jam = '16'
-menit = '50'
+# masukan hari, jam, menit pada variabel di bawah ini
+hari = '' # e.g: hari = 'senin'
+jam = '' # e.g: jam = '20'
+menit = '' # e.g: menit = '30'
 
