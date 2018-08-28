@@ -34,18 +34,24 @@ def getTweetId(username):
 def deleteAllTweets():
     tweetIds = []
     api = auth()
+    username = api.VerifyCredentials()
+    username = username.AsDict()['screen_name']
     while True:
         if len(tweetIds) != 0:
             try:
                 for id in tweetIds:
-                    api.DestroyStatus(id)
+
+                    try:
+                        api.DestroyStatus(id)
+                    except Exception:
+                        tweetIds = getTweetId(username)
+
                     print('%s was deleted' % id)
                     time.sleep(5)
             except Exception as e:
                 print('Oops something error: ', e)
                 print('please wait..')
                 time.sleep(60)
-                pass
         else:
             try:
                 tweetIds = getTweetId(username=username)
@@ -94,10 +100,10 @@ def run():
         hour = datetime.datetime.today().time().hour
         minute = datetime.datetime.today().time().minute
 
-        if day == switch(hari) and str(hour) == str(jam) and str(minute) == str(menit):
+        if day == switch(hari):
             deleteAllTweets()
         else:
-            print('waiting %s %s:%s' % (switch2(switch(hari)), jam, menit))
+            print('waiting %s %s:%s' % (switch2(switch(hari))))
             print('today is %s %s:%s' % (switch2(day), hour, minute))
             time.sleep(5)
 
