@@ -1,7 +1,7 @@
 # Delete All Tweets
 
 Sebuah *Automation Script* yang berfungsi untuk menghapus
-semua tweet pada akun twitter anda secar berkala --satu minggu sekali--. Script ini ditulis menggunakan 
+semua tweet pada akun twitter anda secar otomatis dan berkala --satu minggu sekali--. Script ini ditulis menggunakan 
 **Python 3.x**.
 
 # How to use
