@@ -1,8 +1,7 @@
 # Delete All Tweets
 
 Sebuah *Automation Script* yang berfungsi untuk menghapus
-semua tweet pada akun twitter anda secar berkala 
-seminggu sekali. Script ini ditulis menggunakan 
+semua tweet pada akun twitter anda secar berkala --satu minggu sekali--. Script ini ditulis menggunakan 
 **Python 3.x**.
 
 # How to use
@@ -16,7 +15,8 @@ $ cd deletealltweets
  
  - Kemudian, masukan **token key** dan **consumer key**
  akun twitter anda di dalam variabel yang dibutuhkan, seperti
-hari (setiap hari apa akun anda akan dibersihkan), jam, dan menit 
+hari, variabel ini berfungsi untuk menentukan tiap hari
+apa akun anda akan dibersihkan.
   di file **_constants.py**
  
  - Install *dependencies* dengan:
